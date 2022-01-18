@@ -21,7 +21,11 @@ const Header = () => {
         <Container>
           <LinkContainer to='/'>
             <Navbar.Brand>
-              <img src='../images/ginger.png' style={{ width: '240px' }} />
+              <img
+                src='../images/ginger.png'
+                style={{ width: '240px' }}
+                alt='Ginger Fresh'
+              />
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
