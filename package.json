@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Grocery shopping cart app",
   "main": "server.js",
+  "engines": {
+    "node": "16.12.0"
+  }
   "type": "module",
   "scripts": {
     "start": "node backend/server",
